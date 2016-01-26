@@ -9,3 +9,4 @@ notifications:
   email: michael@rabbitmq.com
 services:
   - rabbitmq
+sudo: true
