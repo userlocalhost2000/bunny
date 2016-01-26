@@ -42,4 +42,5 @@ rabbit_control 'set_permissions -p bunny_testbed bunny_reader "^---$" "^---$" ".
 # rabbit_plugins 'enable rabbitmq_management'
 
 # for debugging
-rabbitmqctl status
+puts "=== (debug) RabbitMQ Status ==="
+`rabbitmqctl status`
