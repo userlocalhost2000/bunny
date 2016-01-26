@@ -9,6 +9,3 @@ notifications:
   email: michael@rabbitmq.com
 services:
   - rabbitmq
-branches:
-  only:
-    - master
